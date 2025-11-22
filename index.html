@@ -196,7 +196,7 @@
     <!-- controls -->
     <div class="controls">
       <button id="startMicBtn">Enable Mic</button>
-      <button id="toggleAlt">Use Click Extinguish</button>
+      <button id="toggleAlt">Use Click mode</button>
     </div>
 
     <!-- balloons (floating on load) -->
@@ -268,7 +268,7 @@ setTimeout(()=> {
   // show cake
   cakeContainer.classList.remove('hidden');
   cakeContainer.classList.add('visible');
-  hint.textContent = 'Click "Enable Mic" and blow OR click the candle to extinguish';
+  hint.textContent = 'Click "Enable Mic" and blow OR use click mode and Touch over the cake';
 }, 3800); // 3.8s delay; change as desired
 
 /* -------------------------
@@ -405,3 +405,4 @@ window.addEventListener('beforeunload', ()=> {
 </script>
 </body>
 </html>
+
